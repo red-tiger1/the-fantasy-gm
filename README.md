@@ -55,5 +55,6 @@ This project demonstrates the use of HTML and CSS to build a multi-section websi
 
 The Fantasy GM is a student website concept and is not affiliated with the NFL. Player rankings and values are illustrative examples and should be checked against current rankings before real-world use.
 
+## Website
 
-
+Website: https://red-tiger1.github.io/the-fantasy-gm/
