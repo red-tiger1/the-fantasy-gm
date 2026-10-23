@@ -43,4 +43,4 @@ The Fantasy GM is a student project concept. It is not a fully functioning fanta
 
 ## View the Website
 
-Once published with GitHub Pages, add your website URL here.
+Website:
