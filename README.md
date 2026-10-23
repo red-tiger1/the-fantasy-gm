@@ -1,46 +1,23 @@
-# The Fantasy GM 
+# The Fantasy GM
 
-## About the Project
-
-The Fantasy GM is a website concept for a fantasy football startup. The idea is to create an all-in-one platform that helps fantasy football managers organize their teams, explore player insights, compare potential trades, and keep track of their leagues.
-
-The goal of the website is to introduce the company, explain its proposed features, and show how the business could work.
+## Overview
+The Fantasy GM is a website concept for a fantasy football company. The goal is to help fantasy football players manage their teams, make better decisions, and get more out of their fantasy football experience.
 
 ## Features
+- **Team Dashboard:** View an example roster and see how a fantasy team could be organized.
+- **Trade Checker:** Compare players and see how a potential trade could affect your team.
+- **Player Stats:** Check player statistics to help decide who to start, trade, or add to your team.
+- **Lineup Planner:** Organize your starting lineup and decide which players to play each week.
+- **Membership Plans:** Choose between a free plan with basic features and a proposed Pro GM plan for $4.99 per month with additional tools.
 
-- **Team Management:** Organize rosters, lineup ideas, and league information.
-- **Trade Insights:** Compare players and explore potential trades.
-- **Player Trends:** Review player statistics and performance trends.
-- **League Hub:** Keep league schedules and updates organized.
-- **Pricing Plans:** Show a proposed free plan and premium subscription.
+These features are examples of what the company could offer. The current website is a front-end design and does not have working fantasy football tools.
 
-## Technologies Used
+## Future Plans
+In the future, The Fantasy GM could be expanded to include live NFL statistics, user accounts, saved fantasy teams, and working trade analysis. Users could also receive personalized suggestions based on their rosters and get help deciding which players to start each week.
 
-- HTML
-- CSS
-- JavaScript
-- GitHub Pages
-
-## Project Structure
-
-- `index.html` — Contains the website content and layout.
-- `style.css` — Controls the website's design, colors, and layout.
-- `script.js` — Adds a small interactive feature to the navigation.
-
-## Business Model
-
-The Fantasy GM would use a freemium business model. Users could access basic features for free, while additional tools could be offered through a paid subscription.
-
-The prices shown on the website are examples for this project and do not represent an actual service.
-
-## Purpose
-
-This website was created as part of a group business/startup website project. It presents the idea behind The Fantasy GM and demonstrates how a startup could introduce its product and business model through a website.
+The long-term goal would be to make The Fantasy GM a useful place for fantasy football players to manage their teams and make decisions throughout the season.
 
 ## Disclaimer
+This is a student project and a concept for a possible fantasy football company. The player points and statistics shown on the website are examples, not live data. The features and membership prices are proposed ideas.
 
-The Fantasy GM is a student project concept. It is not a fully functioning fantasy football platform and does not connect to live player statistics or real fantasy leagues.
 
-## View the Website
-
-Website:
