@@ -1,23 +1,66 @@
 # The Fantasy GM
 
-## Overview
-The Fantasy GM is a website concept for a fantasy football company. The goal is to help fantasy football players manage their teams, make better decisions, and get more out of their fantasy football experience.
+## About the Project
 
-## Features
-- **Team Dashboard:** View an example roster and see how a fantasy team could be organized.
-- **Trade Checker:** Compare players and see how a potential trade could affect your team.
-- **Player Stats:** Check player statistics to help decide who to start, trade, or add to your team.
-- **Lineup Planner:** Organize your starting lineup and decide which players to play each week.
-- **Membership Plans:** Choose between a free plan with basic features and a proposed Pro GM plan for $4.99 per month with additional tools.
+The Fantasy GM is a website concept for a fantasy football company designed to help fantasy football managers make more informed decisions. The website presents tools for comparing players, evaluating trades, and thinking about roster strategy.
 
-These features are examples of what the company could offer. The current website is a front-end design and does not have working fantasy football tools.
+The goal is to create a clean, easy-to-use website that makes fantasy football trade analysis easier to understand.
 
-## Future Plans
-In the future, The Fantasy GM could be expanded to include live NFL statistics, user accounts, saved fantasy teams, and working trade analysis. Users could also receive personalized suggestions based on their rosters and get help deciding which players to start each week.
+## Website Features
 
-The long-term goal would be to make The Fantasy GM a useful place for fantasy football players to manage their teams and make decisions throughout the season.
+- **Trade Analyzer:** Compares the total player values on both sides of a sample trade.
+- **Player Rankings:** Uses a ranking scale to assign values to players.
+- **Trade Verdict:** Shows which side has the higher combined player value.
+- **Roster Strategy:** Highlights the importance of considering team needs in addition to player values.
+- **Pricing Plans:** Presents proposed subscription plans for different types of fantasy football managers.
+- **Responsive Design:** Adjusts the layout for desktop computers, tablets, and phones.
+
+## Player Value Formula
+
+The sample trade analyzer uses a ranking-based formula inspired by an existing fantasy football trade analysis concept.
+
+Player Value = 15.00 - (14.95 * (Rank - 1) / 299)
+
+The formula assigns a value of 15.00 to rank #1 and 0.05 to rank #300. Players ranked between those positions receive values along the same scale.
+
+The website adds the individual player values on each side of a trade to compare their combined totals.
+
+These values are a simplified comparison tool. They do not guarantee that a trade is good or bad because factors such as scoring format, injuries, positional needs, and player performance can affect a manager's decision.
+
+## Technologies Used
+
+- HTML
+- CSS
+
+The website uses basic HTML to organize the content and CSS to control the layout, colors, typography, and responsive design. No JavaScript, frameworks, or backend services are used.
+
+## Important Limitations
+
+This is a front-end website concept, not a fully functioning fantasy football application.
+
+- The sample player rankings and values are manually entered.
+- Trade totals and verdicts are not calculated automatically.
+- Player rankings do not update from a live database.
+- The pricing plans are proposed examples and do not process payments.
+- The website does not connect to fantasy football league accounts.
+
+## Pricing Concept
+
+The website presents three proposed plans:
+
+- **Rookie:** A free plan for basic trade comparisons.
+- **General Manager:** A proposed $4.99-per-month plan with additional analysis features.
+- **Front Office:** A proposed $9.99-per-month plan with more advanced tools.
+
+These plans demonstrate a possible business model for The Fantasy GM. They are not active subscriptions.
+
+## Project Purpose
+
+This project demonstrates the use of HTML and CSS to build a multi-section website for a fictional company. It combines a business concept with a fantasy football theme and presents how a trade analysis service could look and be organized.
 
 ## Disclaimer
-This is a student project and a concept for a possible fantasy football company. The player points and statistics shown on the website are examples, not live data. The features and membership prices are proposed ideas.
+
+The Fantasy GM is a student website concept and is not affiliated with the NFL. Player rankings and values are illustrative examples and should be checked against current rankings before real-world use.
+
 
 
