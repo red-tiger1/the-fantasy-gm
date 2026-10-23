@@ -6,219 +6,298 @@
     <title>The Fantasy GM</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
     <header>
         <nav class="navbar">
             <h1 class="logo">THE FANTASY <span>GM</span></h1>
+
             <ul>
+                <li><a href="#team">My Team</a></li>
                 <li><a href="#features">Features</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#pricing">Plans</a></li>
+                <li><a href="#plans">Plans</a></li>
             </ul>
         </nav>
     </header>
 
     <section class="hero">
         <div class="hero-text">
-            <p class="small-title">YOUR TEAM. YOUR STRATEGY.</p>
-            <h2>Be the GM.<br>Own Your Strategy.</h2>
+            <p class="season">2026 NFL SEASON</p>
+
+            <h2>Make the moves.<br>Build the team.</h2>
+
             <p>
-                Take control of your fantasy football experience.
-                The Fantasy GM brings team management, player insights,
-                and trade ideas together in one place.
+                Fantasy football is more than picking players.
+                The Fantasy GM is a concept for helping you manage
+                your lineup, compare players, and plan your next move.
             </p>
-            <a href="#features" class="button">Explore Features</a>
+
+            <a href="#team" class="button">See the Demo</a>
         </div>
 
-        <div class="dashboard">
-            <div class="dashboard-top">
-                <h3>MY FANTASY TEAM</h3>
-                <span class="status">TEAM OVERVIEW</span>
+        <div class="hero-card">
+            <p class="card-heading">YOUR NEXT MOVE STARTS HERE</p>
+            <div class="big-number">01</div>
+            <h3>Think like a GM.</h3>
+            <p>Build your roster. Check your options. Make your call.</p>
+        </div>
+    </section>
+
+
+    <section id="team" class="section">
+        <p class="section-label">SAMPLE DASHBOARD</p>
+        <h2>Your Fantasy Team</h2>
+
+        <p class="intro">
+            Here's an example of what your team page could look like
+            during the 2026 NFL season.
+        </p>
+
+        <div class="team-summary">
+            <div>
+                <p>PROJECTED TEAM POINTS</p>
+                <h3>124.6</h3>
             </div>
 
-            <div class="team-score">
-                <div>
-                    <p>PROJECTED POINTS</p>
-                    <h2>142.8</h2>
-                </div>
-                <div>
-                    <p>TEAM RANK</p>
-                    <h2>#2</h2>
-                </div>
+            <div>
+                <p>RECORD</p>
+                <h3>3 - 1</h3>
+            </div>
+
+            <div>
+                <p>LEAGUE RANK</p>
+                <h3>#2</h3>
+            </div>
+        </div>
+
+        <div class="roster">
+            <div class="roster-heading">
+                <h3>Starting Lineup</h3>
+                <p>Example roster</p>
+            </div>
+
+            <div class="player player-heading">
+                <span>POS</span>
+                <span>PLAYER</span>
+                <span>TEAM</span>
+                <span>POINTS*</span>
             </div>
 
             <div class="player">
-                <div class="player-icon">QB</div>
-                <div class="player-info">
-                    <h4>Quarterback</h4>
-                    <p>Starting Lineup</p>
-                </div>
-                <strong>24.6 pts</strong>
+                <span class="position">QB</span>
+                <strong>Drake Maye</strong>
+                <span>NE</span>
+                <span>24.8</span>
             </div>
 
             <div class="player">
-                <div class="player-icon">RB</div>
-                <div class="player-info">
-                    <h4>Running Back</h4>
-                    <p>Starting Lineup</p>
-                </div>
-                <strong>18.2 pts</strong>
+                <span class="position">RB</span>
+                <strong>TreVeyon Henderson</strong>
+                <span>NE</span>
+                <span>16.2</span>
             </div>
 
             <div class="player">
-                <div class="player-icon">WR</div>
-                <div class="player-info">
-                    <h4>Wide Receiver</h4>
-                    <p>Starting Lineup</p>
-                </div>
-                <strong>21.4 pts</strong>
+                <span class="position">WR</span>
+                <strong>A.J. Brown</strong>
+                <span>NE</span>
+                <span>18.5</span>
             </div>
 
-            <p class="dashboard-note">
-                Example dashboard — player information is for demonstration.
+            <p class="footnote">
+                *Fantasy points are made-up examples, not actual player
+                scores or projections. Player information reflects a
+                sample of the 2026 season and may change.
             </p>
         </div>
     </section>
 
-    <section id="features" class="features section">
-        <p class="small-title">WHAT WE OFFER</p>
-        <h2>Make Every Move Count</h2>
-        <p class="section-description">
-            Get the tools and information to make smarter fantasy football decisions.
+
+    <section id="features" class="section features-section">
+        <p class="section-label">WHAT YOU CAN DO</p>
+        <h2>More Than a Lineup</h2>
+
+        <p class="intro">
+            A few examples of tools The Fantasy GM could offer.
         </p>
 
         <div class="feature-container">
+
             <div class="feature-card">
-                <div class="feature-icon">01</div>
-                <h3>Team Management</h3>
+                <div class="feature-number">01</div>
+                <h3>Trade Checker</h3>
                 <p>
-                    Keep track of your lineup and organize your team
-                    before game day.
+                    Compare two players and think about which one
+                    could help your team more.
+                </p>
+
+                <div class="trade-example">
+                    <div>
+                        <span>QB</span>
+                        <strong>Drake Maye</strong>
+                    </div>
+
+                    <p class="versus">VS</p>
+
+                    <div>
+                        <span>WR</span>
+                        <strong>A.J. Brown</strong>
+                    </div>
+                </div>
+
+                <p class="example-note">
+                    Example comparison only. No live trade analysis.
                 </p>
             </div>
 
+
             <div class="feature-card">
-                <div class="feature-icon">02</div>
-                <h3>Trade Insights</h3>
+                <div class="feature-number">02</div>
+                <h3>Player Stats</h3>
                 <p>
-                    Compare players and explore trade ideas to help
-                    you make informed decisions.
+                    Keep important player information in one place
+                    so it's easier to compare your options.
+                </p>
+
+                <div class="stat-example">
+                    <div>
+                        <span>PASSING YARDS</span>
+                        <strong>2,450</strong>
+                    </div>
+
+                    <div>
+                        <span>TOUCHDOWNS</span>
+                        <strong>18</strong>
+                    </div>
+                </div>
+
+                <p class="example-note">
+                    Made-up stats for the website demo.
                 </p>
             </div>
 
+
             <div class="feature-card">
-                <div class="feature-icon">03</div>
-                <h3>Player Trends</h3>
+                <div class="feature-number">03</div>
+                <h3>Lineup Planner</h3>
                 <p>
-                    Review player performance trends and identify
-                    potential opportunities.
+                    See how a starting lineup could be organized
+                    before the next round of games.
+                </p>
+
+                <div class="lineup-example">
+                    <p><span>QB</span> Quarterback</p>
+                    <p><span>RB</span> Running Back</p>
+                    <p><span>WR</span> Wide Receiver</p>
+                    <p><span>TE</span> Tight End</p>
+                </div>
+
+                <p class="example-note">
+                    A visual example, not a working lineup tool.
                 </p>
             </div>
 
-            <div class="feature-card">
-                <div class="feature-icon">04</div>
-                <h3>League Hub</h3>
-                <p>
-                    Keep your league information organized and
-                    follow your competition.
-                </p>
-            </div>
         </div>
     </section>
 
-    <section id="about" class="about section">
-        <div class="about-text">
-            <p class="small-title">ABOUT THE FANTASY GM</p>
-            <h2>More Than Just a Lineup</h2>
+
+    <section class="about-section">
+        <div>
+            <p class="section-label">THE IDEA</p>
+            <h2>Run Your Team Your Way.</h2>
             <p>
-                Fantasy football is about more than picking players.
-                It takes planning, research, and knowing when to make
-                a move. The Fantasy GM is designed to bring those
-                parts of the game together in one simple experience.
-            </p>
-            <p>
-                Whether you're a first-time player or a longtime
-                fantasy manager, our goal is to help you think like
-                a general manager.
+                Every fantasy manager has a different strategy.
+                Some focus on trades, others look for the next
+                breakout player, and some trust their draft picks.
+                The Fantasy GM would bring these decisions together
+                in one simple place.
             </p>
         </div>
 
-        <div class="about-box">
-            <h3>THE GM MINDSET</h3>
-            <div class="about-point">
-                <span>✓</span>
-                <p>Plan your lineup</p>
-            </div>
-            <div class="about-point">
-                <span>✓</span>
-                <p>Evaluate your options</p>
-            </div>
-            <div class="about-point">
-                <span>✓</span>
-                <p>Make informed decisions</p>
-            </div>
-            <div class="about-point">
-                <span>✓</span>
-                <p>Compete every week</p>
-            </div>
+        <div class="about-list">
+            <h3>The GM Checklist</h3>
+            <p><span>✓</span> Check your roster</p>
+            <p><span>✓</span> Compare players</p>
+            <p><span>✓</span> Plan your lineup</p>
+            <p><span>✓</span> Get ready for game day</p>
         </div>
     </section>
 
-    <section id="pricing" class="pricing section">
-        <p class="small-title">OUR PLANS</p>
-        <h2>Find Your Game Plan</h2>
-        <p class="section-description">
-            Start with the basics or explore more tools with a premium plan.
+
+    <section id="plans" class="section">
+        <p class="section-label">OUR BUSINESS MODEL</p>
+        <h2>Choose Your Game Plan</h2>
+
+        <p class="intro">
+            A proposed pricing model for the platform.
         </p>
 
-        <div class="pricing-container">
-            <div class="price-card">
+        <div class="plans-container">
+
+            <div class="plan-card">
                 <h3>Starter</h3>
                 <p class="price">$0 <span>/ month</span></p>
-                <p>For fantasy players who want the essentials.</p>
+
+                <p>For players who want the basics.</p>
+
                 <ul>
                     <li>Team organization</li>
-                    <li>Basic player insights</li>
-                    <li>League overview</li>
+                    <li>Basic player information</li>
+                    <li>Lineup planning</li>
                 </ul>
-                <a href="#about" class="button secondary-button">Get Started</a>
+
+                <a href="#team" class="button outline-button">
+                    View Demo
+                </a>
             </div>
 
-            <div class="price-card featured-price">
-                <p class="popular">PREMIUM PLAN</p>
+
+            <div class="plan-card pro-plan">
+                <p class="pro-label">PROPOSED PREMIUM PLAN</p>
                 <h3>Pro GM</h3>
                 <p class="price">$4.99 <span>/ month</span></p>
-                <p>For players looking for more ways to plan.</p>
+
+                <p>For players who want more analysis.</p>
+
                 <ul>
                     <li>Everything in Starter</li>
-                    <li>Expanded trade comparisons</li>
-                    <li>Additional player trends</li>
+                    <li>More trade comparisons</li>
+                    <li>Extra player trends</li>
                 </ul>
-                <a href="#about" class="button">Explore Pro</a>
+
+                <a href="#team" class="button">
+                    View Demo
+                </a>
             </div>
+
         </div>
 
-        <p class="pricing-note">
-            Pricing and features are proposed examples, not active subscriptions.
+        <p class="footnote">
+            Pricing and features are ideas for the proposed business,
+            not active subscriptions.
         </p>
     </section>
 
-    <section class="call-to-action">
-        <h2>Ready to Think Like a GM?</h2>
-        <p>Your next fantasy football move starts with a plan.</p>
-        <a href="#features" class="button">See What We Offer</a>
+
+    <section class="bottom-section">
+        <h2>Who's Running Your Team?</h2>
+        <p>Make your plan. Trust your decisions. Be the GM.</p>
+        <a href="#team" class="button">Explore the Demo</a>
     </section>
+
 
     <footer>
         <h3>THE FANTASY <span>GM</span></h3>
-        <p>Be the GM. Own Your Strategy.</p>
-        <p class="disclaimer">
-            The Fantasy GM is a concept for a fantasy football platform.
+        <p>Make the moves. Build the team.</p>
+        <p class="footer-note">
+            A concept for a fantasy football platform.
+            Example data is not live.
         </p>
-        <p class="copyright">&copy; 2026 The Fantasy GM</p>
+        <p class="copyright">© 2026 The Fantasy GM</p>
     </footer>
 
 </body>
 </html>
+
 
