@@ -27,13 +27,6 @@ The website adds the individual player values on each side of a trade to compare
 
 These values are a simplified comparison tool. They do not guarantee that a trade is good or bad because factors such as scoring format, injuries, positional needs, and player performance can affect a manager's decision.
 
-## Technologies Used
-
-- HTML
-- CSS
-
-The website uses basic HTML to organize the content and CSS to control the layout, colors, typography, and responsive design. No JavaScript, frameworks, or backend services are used.
-
 ## Important Limitations
 
 This is a front-end website concept, not a fully functioning fantasy football application.
