@@ -1,59 +1,36 @@
 # The Fantasy GM
 
-## About the Project
+The Fantasy GM is a fantasy football website concept created by Aiden Lin and Toni Ladeji. The website is designed to help fantasy football managers look at trades more closely by comparing players, reviewing GM Scores, and thinking about how a trade fits their roster.
 
-The Fantasy GM is a website concept for a fantasy football company designed to help fantasy football managers make more informed decisions. The website presents tools for comparing players, evaluating trades, and thinking about roster strategy.
+## Website Pages
 
-The goal is to create a clean, easy-to-use website that makes fantasy football trade analysis easier to understand.
+- **Home:** Introduces The Fantasy GM and shows an example trade between two teams.
+- **Trade Analyzer:** Displays a sample trade, compares the players and their GM Scores, and explains the difference between the two sides.
+- **Features:** Explains how GM Score works, how trade comparisons are made, and why roster needs matter when evaluating a trade.
+- **Plans:** Shows three proposed subscription plans: Rookie, General Manager, and Front Office.
+- **About Us:** Introduces the founders and explains the idea behind The Fantasy GM.
 
-## Website Features
+## GM Score
 
-- **Trade Analyzer:** Compares the total player values on both sides of a sample trade.
-- **Player Rankings:** Uses a ranking scale to assign values to players.
-- **Trade Verdict:** Shows which side has the higher combined player value.
-- **Roster Strategy:** Highlights the importance of considering team needs in addition to player values.
-- **Pricing Plans:** Presents proposed subscription plans for different types of fantasy football managers.
-- **Responsive Design:** Adjusts the layout for desktop computers, tablets, and phones.
+GM Score is a ranking-based player rating used to compare fantasy football players. Higher-ranked players receive higher scores. The scores for each side of a trade are added together to make it easier to compare the overall value of an offer.
 
-## Player Value Formula
+However, the score is only a starting point. A manager should also consider player positions, league settings, and their team's needs before making a decision.
 
-The sample trade analyzer uses a ranking-based formula inspired by an existing fantasy football trade analysis concept.
+## Plans
 
-Player Value = 15.00 - (14.95 * (Rank - 1) / 299)
+The website includes three proposed plans:
 
-The formula assigns a value of 15.00 to rank #1 and 0.05 to rank #300. Players ranked between those positions receive values along the same scale.
+- **Rookie:** Free plan with basic trade comparisons and player scores.
+- **General Manager:** $4.99 per month, with more detailed trade breakdowns and roster strategy tools.
+- **Front Office:** $9.99 per month, with expanded player insights and advanced trade analysis.
 
-The website adds the individual player values on each side of a trade to compare their combined totals.
+## Project Information
 
-These values are a simplified comparison tool. They do not guarantee that a trade is good or bad because factors such as scoring format, injuries, positional needs, and player performance can affect a manager's decision.
+This website was created as a student business project to present the concept and design of The Fantasy GM. It is a front-end demonstration built with HTML and CSS.
 
-## Important Limitations
+The Trade Analyzer uses a fixed sample trade and does not calculate new trades. Player rankings and GM Scores are illustrative, and the subscription plans are proposed examples. Purchases and paid features are not available.
 
-This is a front-end website concept, not a fully functioning fantasy football application.
-
-- The sample player rankings and values are manually entered.
-- Trade totals and verdicts are not calculated automatically.
-- Player rankings do not update from a live database.
-- The pricing plans are proposed examples and do not process payments.
-- The website does not connect to fantasy football league accounts.
-
-## Pricing Concept
-
-The website presents three proposed plans:
-
-- **Rookie:** A free plan for basic trade comparisons.
-- **General Manager:** A proposed $4.99-per-month plan with additional analysis features.
-- **Front Office:** A proposed $9.99-per-month plan with more advanced tools.
-
-These plans demonstrate a possible business model for The Fantasy GM. They are not active subscriptions.
-
-## Project Purpose
-
-This project demonstrates the use of HTML and CSS to build a multi-section website for a fictional company. It combines a business concept with a fantasy football theme and presents how a trade analysis service could look and be organized.
-
-## Disclaimer
-
-The Fantasy GM is a student website concept and is not affiliated with the NFL. Player rankings and values are illustrative examples and should be checked against current rankings before real-world use.
+The Fantasy GM is not affiliated with the NFL.
 
 ## Website
 
