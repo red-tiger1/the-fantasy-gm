@@ -57,4 +57,4 @@ The Fantasy GM is a student website concept and is not affiliated with the NFL. 
 
 ## Website
 
-Website: https://red-tiger1.github.io/the-fantasy-gm/
+Website: https://red-tiger1.github.io/the-fantasy-gm/index.html
