@@ -67,7 +67,8 @@ header {
 .logo {
     text-decoration: none;
     font-size: 23px;
-    letter-spacing: 2px;
+    font-weight: bold;
+    letter-spacing: 1px;
 }
 
 .logo span {
@@ -96,7 +97,7 @@ nav a.active {
     border-bottom: 1px solid #49493e;
 }
 
-/* CENTERED INTRODUCTION */
+/* PAGE INTRODUCTIONS */
 
 .intro {
     padding: 70px 25px;
@@ -108,12 +109,37 @@ nav a.active {
 .intro h1 {
     max-width: 650px;
     margin: 0 auto 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }
 
 .intro p {
     max-width: 540px;
     margin: 0 auto;
     color: #e0dfd8;
+}
+
+.intro .sport-label {
+    margin-bottom: 22px;
+    font-size: 11px;
+    letter-spacing: 2px;
+}
+
+/* FOOTBALL FIELD MARKINGS */
+
+.field-lines {
+    display: flex;
+    justify-content: space-between;
+    max-width: 540px;
+    margin: 35px auto 0;
+    border-top: 1px solid #929289;
+}
+
+.field-lines span {
+    border-left: 1px solid #929289;
+    padding: 8px 12px 0;
+    color: #d8d8cf;
+    font-size: 11px;
 }
 
 /* CONTENT AND LINKS */
@@ -156,7 +182,13 @@ nav a.active {
     font-size: 12px;
 }
 
-/* EXPANDABLE ROWS */
+.section-label {
+    color: #66665e;
+    font-size: 11px;
+    letter-spacing: 2px;
+}
+
+/* EXPANDABLE SECTIONS */
 
 .rows {
     margin-top: 35px;
@@ -217,6 +249,14 @@ details .text-link {
 
 .how-it-works li {
     margin-bottom: 12px;
+}
+
+/* HOME PAGE FOUNDER LINK */
+
+.founder-link {
+    margin-top: 45px;
+    padding-top: 30px;
+    border-top: 1px solid #d4d4cc;
 }
 
 /* TRADE COMPARISON */
@@ -300,7 +340,7 @@ tfoot td {
     margin-bottom: 0;
 }
 
-/* PLAN ROWS */
+/* PLANS */
 
 .plan {
     display: grid;
@@ -330,6 +370,35 @@ tfoot td {
 
 .plan + .note {
     margin-top: 25px;
+}
+
+/* ABOUT US */
+
+.founders-layout {
+    display: grid;
+    grid-template-columns: 0.85fr 1.15fr;
+    align-items: start;
+    gap: 40px;
+}
+
+.founders-photo {
+    margin: 0;
+}
+
+.founders-photo img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.founders-photo figcaption {
+    margin-top: 12px;
+    font-size: 12px;
+    color: #66665e;
+}
+
+.founders-story h3 {
+    margin-top: 30px;
 }
 
 /* FOOTER */
@@ -406,12 +475,22 @@ footer .note {
     }
 
     .trade-columns,
-    .plan {
+    .plan,
+    .founders-layout {
         grid-template-columns: 1fr;
         gap: 25px;
     }
 
     .plan p.price {
         margin-bottom: 0;
+    }
+
+    .founders-photo {
+        max-width: 420px;
+        margin: 0 auto;
+    }
+
+    .field-lines span {
+        padding: 8px 8px 0;
     }
 }
